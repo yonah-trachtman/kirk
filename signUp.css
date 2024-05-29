@@ -2,3 +2,9 @@
     transform: scale(1.1);
    transform-origin: 0 0;
 }
+
+body {
+    height: 30vh;
+    width: 25vw;
+    text-align: center;
+}

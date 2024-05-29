@@ -8,14 +8,21 @@
   src: url(edge-of-the-galaxy-font/EdgeOfTheGalaxyRegular-OVEa6.otf);
 }
 
-*{
-  font-family: edgeOfGalaxy;
-}
-
 body {
   background-color: black;
   color: #F5D746;
+  font-family: edgeOfGalaxy;
 }
+
+audio {
+  justify-content: center;
+}
+
+.center * {
+  text-align: center;
+}
+
+
 a {
   color: black;
 }
@@ -45,23 +52,28 @@ a {
 }
 
 .hbtn {
-    border-style: solid;
+  border-style: solid;
   border-width: 5px;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 15%;
+  padding-bottom: 15%;
   color: black;
 }
 
 .fbtn {
   padding: 1vh;
-  margin-left: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-left: 5%;
   border-right: 5px solid black;
   border-left: 5px solid black;
   position: relative;
+  margin-top: -0.5%;
+  margin-bottom: -1%;
 }
 .fbtn, .hbtn{
   color: black;
   font-family: starDate;
+  font-size: 200%;
 }
 
 a:link {
@@ -80,6 +92,7 @@ select, option, input, label {
   font-family: starDate;
   color: black;
   font-size: large;
+  font-size: small;
 }
 .bottomBar{
   border: #9797FC;
@@ -99,9 +112,28 @@ select, option, input, label {
   border: #9797FC;
   background-color: #9797FC;
   border-radius: 100px;
-  width: 30%;
+  width: 20%;
   padding-top: 2vh;
   padding-bottom: 2vh;
   text-align: center;
 
 }
+
+.btnWraper{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+ .mainImg{
+  height: 40vh;
+  width: 40vw;
+ }
+
+ .timeLine{
+  
+ }
+
+ .timeLine h1{
+  text-align: center;
+ }
