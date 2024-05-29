@@ -146,3 +146,12 @@ select, option, input, label {
   background-color: #F1B675;
 
  }
+
+ .homeText {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20%;
+  justify-content: center;
+  max-width: 500px;
+  margin: auto;
+ }
