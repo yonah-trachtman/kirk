@@ -14,6 +14,10 @@ body {
   font-family: edgeOfGalaxy;
 }
 
+li{
+  list-style-type: none;
+ }
+
 audio {
   justify-content: center;
 }
@@ -54,8 +58,8 @@ a {
 .hbtn {
   border-style: solid;
   border-width: 5px;
-  padding-top: 15%;
-  padding-bottom: 15%;
+  padding-top: 9%;
+  padding-bottom: 9%;
   color: black;
 }
 
@@ -93,6 +97,7 @@ select, option, input, label {
   color: black;
   font-size: large;
   font-size: small;
+  font-size: 120%;
 }
 .bottomBar{
   border: #9797FC;
@@ -130,10 +135,13 @@ select, option, input, label {
   width: 40vw;
  }
 
- .timeLine{
-  
+
+
+ h1.timeLine{
+  text-align: center;
  }
 
- .timeLine h1{
-  text-align: center;
+ .current {
+  background-color: #F1B675;
+
  }
