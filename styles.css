@@ -1,6 +1,20 @@
+@font-face {
+  font-family: "starDate";
+  src: url(stardate-81316-font/Stardate81316-aolE.ttf);
+}
+
+@font-face {
+  font-family: "edgeOfGalaxy";
+  src: url(edge-of-the-galaxy-font/EdgeOfTheGalaxyRegular-OVEa6.otf);
+}
+
+*{
+  font-family: edgeOfGalaxy;
+}
+
 body {
   background-color: black;
-  color: white;
+  color: #F5D746;
 }
 a {
   color: black;
@@ -27,6 +41,7 @@ a {
 
 .apply, .navBar{
   border-radius: 100px;
+  
 }
 
 .hbtn {
@@ -46,6 +61,7 @@ a {
 }
 .fbtn, .hbtn{
   color: black;
+  font-family: starDate;
 }
 
 a:link {
@@ -57,10 +73,13 @@ a:link {
   width: 25vw;
 }
 
-select, option, input {
+select, option, input, label {
   border: #9797FC;
   background-color: #9797FC;
   border-radius: 100px;
+  font-family: starDate;
+  color: black;
+  font-size: large;
 }
 .bottomBar{
   border: #9797FC;
@@ -68,4 +87,21 @@ select, option, input {
   border-radius: 100px;
   width: 99.9%;
   height: 3vh;
+  margin-top: 10vh;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.pageBtn {
+  border: #9797FC;
+  background-color: #9797FC;
+  border-radius: 100px;
+  width: 30%;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  text-align: center;
+
 }
