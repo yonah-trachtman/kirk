@@ -12,10 +12,19 @@ body {
   background-color: black;
   color: #F5D746;
   font-family: edgeOfGalaxy;
+  letter-spacing: 0.1vw;
 }
 
 li{
   list-style-type: none;
+ }
+
+ div{
+  padding: 2%;
+ }
+
+ section{
+  padding: 2%;
  }
 
 audio {
@@ -49,6 +58,7 @@ a {
   background-color: #9797FC;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .apply, .navBar{
